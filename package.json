@@ -1,0 +1,31 @@
+{
+  "name": "swahili-english-translator",
+  "version": "1.0.0",
+  "description": "A simple npm package for translating between English and Swahili ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Henryle-hd/swahili-english-translator.git"
+  },
+  "keywords": [
+    "swahili",
+    "english",
+    "translator",
+    "dictionary",
+    "language"
+  ],
+  "author": "Henry Dioniz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Henryle-hd/swahili-english-translator/issues"
+  },
+  "homepage": "https://github.com/Henryle-hd/swahili-english-translator#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.4"
+  }
+}
