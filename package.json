@@ -1,6 +1,6 @@
 {
   "name": "swahili-english-translator",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A simple npm package for translating between English and Swahili ",
   "main": "index.js",
   "scripts": {
@@ -11,13 +11,27 @@
     "type": "git",
     "url": "git+https://github.com/Henryle-hd/swahili-english-translator.git"
   },
-  "keywords": [
-    "swahili",
-    "english",
-    "translator",
-    "dictionary",
-    "language"
-  ],
+"keywords": [
+  "swahili",
+  "english",
+  "translator",
+  "dictionary",
+  "language",
+  "swahili-english-translator",
+  "kiswahili-english",
+  "english-kiswahili",
+  "african-languages",
+  "language-learning",
+  "translation-tool",
+  "bilingual-dictionary",
+  "swahili-vocabulary",
+  "east-african-languages",
+  "language-conversion",
+  "word-translation",
+  "linguistic-tool",
+  "cross-language",
+  "multilingual"
+],
   "author": "Henry Dioniz",
   "license": "MIT",
   "bugs": {
