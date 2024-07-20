@@ -1,8 +1,8 @@
-# Swahili-English Translator
+# Swahili-English Translator 🌍🗣️
 
 A simple npm package for translating between English and Swahili.
 
-## Installation
+## Installation 📦
 
 To install the package, run:
 
@@ -10,7 +10,7 @@ To install the package, run:
 npm install swahili-english-translator
 
 
-## Usage
+## Usage 🚀
 
 First, import the translation functions:
 
@@ -18,7 +18,7 @@ First, import the translation functions:
 const { translateEng, translateKsw } = require('swahili-english-translator');
 
 
-### Translating English to Swahili
+### Translating English to Swahili 🇬🇧➡️🇹🇿
 
 To translate an English word to Swahili:
 
@@ -28,6 +28,7 @@ console.log(result);
 
 
 Output:
+
 
 {
   meaning: ' kuachana',
@@ -39,7 +40,7 @@ Output:
 }
 
 
-### Translating Swahili to English
+### Translating Swahili to English 🇹🇿➡️🇬🇧
 
 To translate a Swahili word to English:
 
@@ -49,6 +50,7 @@ console.log(result);
 
 
 Output:
+
 
 {
   meaning: ' ability',
@@ -60,7 +62,7 @@ Output:
 }
 
 
-### Getting Specific Information
+### Getting Specific Information 🔍
 
 1. To get only the meaning:
    
@@ -87,7 +89,7 @@ Output:
    }
    
 
-## API Reference
+## API Reference 📚
 
 ### translateEng(word)
 
@@ -105,7 +107,7 @@ Translates a Swahili word to English.
   - `word` (string): The Swahili word to translate
 - Returns: An object containing the English translation, word type, and an example
 
-## Development
+## Development 👨‍💻👩‍💻
 
 To set up the project for development:
 
@@ -124,10 +126,10 @@ To set up the project for development:
    npm test
    
 
-## Contributing
+## Contributing 🤝
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
+## License 📄
 
 This project is licensed under the MIT License.
