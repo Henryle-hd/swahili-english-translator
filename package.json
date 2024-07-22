@@ -1,6 +1,6 @@
 {
   "name": "swahili-english-translator",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A simple npm package for translating between English and Swahili ",
   "main": "index.js",
   "scripts": {
