@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Swahili-English Translator: A powerful npm package for seamless translation between English and Swahili.">
+    <title>Swahili-English Translator Documentation</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="./asst/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav id="topbar">
+            <span class="title"><img src="./asst/favicon.ico" alt="" width="40px" height="40px">
+            <span><span class="titleX">SwaEng</span>TranX.</span></span>
+            <div class="nav-links">
+                <a href="./faq.html">FAQ</a>
+                <a href="https://easyone.hashnode.dev/">Blog</a>
+                <a href="https://github.com/Henryle-hd/swahili-english-translator">GitHub</a>
+            </div>
+        </nav>
+    </header>
+    <div class="sideMain">
+    <nav id="sidebar">
+        <!-- Links will be added here by JavaScript -->
+    </nav>
+    <main>
+        <h1>Swahili-English Translator 🌍</h1>
+        <img src="./asst/translationnomads-translation-tog.gif" alt="English to Swahili translation" srcset="" width="200px" height="200px">
+
+         <section id="Introduction">
+            <h2>Introduction </h2>
+            <p class="introP">A simple npm package for translating between English and Swahili. This tool offers quick and accurate translations, complete with word meanings, grammatical types, and usage examples. Whether you're a developer building multilingual applications, a language learner, or someone working with Swahili and English content, <a href="https://github.com/Henryle-hd/swahili-english-translator">Swahili-English Translator </a> provides an efficient solution for your translation needs. Let's explore how to integrate and utilize this versatile package in your projects."</p>
+            <!-- <pre><code>npm install swahili-english-translator</code></pre> -->
+        </section>
+        <section id="installation">
+            <h2>Installation 📦</h2>
+            <p>To install the package, run:</p>
+            <pre><code>npm install swahili-english-translator</code></pre>
+        </section>
+        
+        <section id="usage">
+            <h2>Usage 🚀</h2>
+            <p>First, import the translation functions:</p>
+            <pre><code>const { translateEng, translateKsw } = require('swahili-english-translator');</code></pre>
+        </section>
+        
+        <section id="translateEng">
+            <h2>Translating English to Swahili 🇬🇧🇹🇿</h2>
+            <p>To translate an English word to Swahili:</p>
+            <pre><code>const result = translateEng('abandon');
+console.log(result);</code></pre>
+            <p>Output: <a href="https://github.com/Henryle-hd/Swahili-english-translator-Example/blob/main/engToSw.js">Example 01</a></p>
+            <pre><code>{
+  meaning: ' kuachana',
+  type: 'Verb',
+  example: {
+    eng: 'They decided to abandon the project.',
+    ksw: 'Waliamua kuachana na mradi.',
+  }
+}</code></pre>
+        </section>
+        
+        <section id="translateKsw">
+            <h2>Translating Swahili to English 🇹🇿🇬🇧</h2>
+            <p>To translate a Swahili word to English:</p>
+            <pre><code>const result = translateKsw('uwezo');
+console.log(result);</code></pre>
+            <p>Output: <a href="https://github.com/Henryle-hd/Swahili-english-translator-Example/blob/main/swToEng.js">Example 02</a></p>
+            <pre><code>{
+  meaning: ' ability',
+  type: 'Noun',
+  example: {
+    eng: 'She has the ability to solve complex problems.',
+    ksw: 'Ana uwezo wa kutatua matatizo magumu.',
+  }
+}</code></pre>
+        </section>
+        
+        <section id="specific-info">
+            <h2>Getting Specific Information 🔍</h2>
+            <h3>1. To get only the meaning:</h3>
+            <pre><code>const result = translateEng('abandon');
+console.log(result.meaning); // Output: ' kuachana'</code></pre>
+            
+            <h3>2. To get the type of word:</h3>
+            <pre><code>const result = translateKsw('uwezo');
+console.log(result.type); // Output: 'Noun'</code></pre>
+            
+            <h3>3. To get an example:</h3>
+            <pre><code>const result = translateEng('abandon');
+console.log(result.example);
+
+// Output:
+// {
+//   eng: 'They decided to abandon the project.',
+//   ksw: 'Waliamua kuachana na mradi.'
+// }</code></pre> <a href="https://github.com/Henryle-hd/Swahili-english-translator-Example/blob/main/Specific%20Info.js">Example 03</a>
+        </section>
+        
+        <section id="api-reference">
+            <h2>API Reference 📚</h2>
+            <h3>translateEng(word)</h3>
+            <p>Translates an English word to Swahili.</p>
+            <ul>
+                <li>Parameters:
+                    <ul>
+                        <li><code>word</code> (string): The English word to translate</li>
+                    </ul>
+                </li>
+                <li>Returns: An object containing the Swahili translation, word type, and an example</li>
+            </ul>
+            
+            <h3>translateKsw(word)</h3>
+            <p>Translates a Swahili word to English.</p>
+            <ul>
+                <li>Parameters:
+                    <ul>
+                        <li><code>word</code> (string): The Swahili word to translate</li>
+                    </ul>
+                </li>
+                <li>Returns: An object containing the English translation, word type, and an example</li>
+            </ul>
+        </section>
+        
+        <section id="development">
+            <h2>Development 👨‍💻👩‍💻</h2>
+            <p>To set up the project for development:</p>
+            <ol>
+                <li>Clone the repository:
+                    <pre><code>git clone https://github.com/Henryle-hd/swahili-english-translator.git</code></pre>
+                </li>
+                <li>Install dependencies:
+                    <pre><code>npm install</code></pre>
+                </li>
+                <li>Run tests:
+                    <pre><code>npm test</code></pre>
+                </li>
+            </ol>
+        </section>
+        <!-- <section id="Examples">
+            <h2>Examples</h2>
+            <ol>
+                <li><a href="https://github.com/Henryle-hd/Swahili-english-translator-Example/blob/main/engToSw.js">Example 01</a></li>
+                <li>
+                    <a href="https://github.com/Henryle-hd/Swahili-english-translator-Example/blob/main/swToEng.js">Example 02</a>
+                </li>
+                <li></code></pre> <a href="https://github.com/Henryle-hd/Swahili-english-translator-Example/blob/main/Specific%20Info.js">Example 03</a></li>
+        </section> -->
+        
+        <section id="contributing">
+            <h2>Contributing 🤝</h2>
+            <p>Contributions are welcome! Please feel free to submit a <a href="https://github.com/Henryle-hd/swahili-english-translator/pulls">Pull Request.</a></p>
+        </section>
+        
+        <section id="license">
+            <h2>License 📄</h2>
+            <p>This project is licensed under the <a href="https://github.com/Henryle-hd/swahili-english-translator?tab=MIT-1-ov-file">MIT License.</a></p>
+        </section>
+        
+        <!-- <section id="more-info">
+            <h2>More Information</h2>
+            <ul>
+                <li>GitHub: <a href="https://github.com/Henryle-hd/swahili-english-translator">https://github.com/Henryle-hd/swahili-english-translator</a></li>
+                <li>Blog: <a href="https://easyone.hashnode.dev/">https://easyone.hashnode.dev/</a></li>
+                <li>Twitter: <a href="https://x.com/Henrylee_hd">@Henrylee_hd</a></li>
+                <li>Email: <a href="mailto:henrydionizi@gmail.com">henrydionizi@gmail.com</a></li>
+            </ul>
+        </section> -->
+    </main>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>© 2024 Swahili-English Translator. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://github.com/Henryle-hd/swahili-english-translator">GitHub</a>
+                <a href="https://easyone.hashnode.dev/">Blog</a>
+                <a href="https://x.com/Henrylee_hd">Twitter</a>
+                <a href="mailto:henrydionizi@gmail.com">Email</a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

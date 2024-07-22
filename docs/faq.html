@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FAQ for Swahili-English Translator: Answers to common questions about the npm package.">
+    <title>Swahili-English Translator FAQ</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="./asst/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav id="topbar">
+            <span class="title"><img src="./asst/favicon.ico" alt="" width="40px" height="40px">
+            <span><span class="titleX">SwaEng</span>TranX.</span></span>
+            <div class="nav-links">
+                <a href="index.html">Docx</a>
+                <a href="https://easyone.hashnode.dev/">Blog</a>
+                <a href="https://github.com/Henryle-hd/swahili-english-translator">GitHub</a>
+            </div>
+        </nav>
+    </header>
+    <div class="sideMain">
+    <nav id="sidebar">
+        <!-- Links will be added here by JavaScript -->
+    </nav>
+    <main>
+        <h1>Frequently Asked Questions</h1>
+
+        <section id="usage-environment">
+            <h2>Usage Environment</h2>
+            <h3>Is this package for backend or client-side use?</h3>
+            <p>The Swahili-English Translator package is versatile and can be used in both backend (Node.js) and client-side (browser) JavaScript environments. It's primarily designed as a Node.js module, making it ideal for server-side applications, but it can also be bundled for use in browser-based applications.</p>
+        </section>
+
+        <section id="installation">
+            <h2>Installation</h2>
+            <h3>How do I install the package?</h3>
+            <p>You can install the package using npm. Run the following command in your project directory:</p>
+            <pre><code>npm install swahili-english-translator</code></pre>
+        </section>
+
+        <section id="usage">
+            <h2>Usage</h2>
+            <h3>How do I use the package in my JavaScript project?</h3>
+            <p>After installation, you can import the translation functions into your JavaScript file like this:</p>
+            <pre><code>const { translateEng, translateKsw } = require('swahili-english-translator');</code></pre>
+            <p>Then use the functions as shown in the main documentation.</p>
+        </section>
+
+        <section id="compatibility">
+            <h2>Compatibility</h2>
+            <h3>Which JavaScript environments are supported?</h3>
+            <p>The package is compatible with:</p>
+            <ul>
+                <li>Node.js environments (server-side)</li>
+                <li>Modern browsers (when bundled for client-side use)</li>
+                <li>JavaScript frameworks like React, Vue, Angular, etc.</li>
+            </ul>
+        </section>
+
+        <section id="performance">
+            <h2>Performance</h2>
+            <h3>Is this package suitable for high-volume translations?</h3>
+            <p>The package is designed for efficient translations, but for very high-volume applications, you may want to implement caching strategies or consider using it in conjunction with a backend service for optimal performance.</p>
+        </section>
+    </main>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>© 2024 Swahili-English Translator. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://github.com/Henryle-hd/swahili-english-translator">GitHub</a>
+                <a href="https://easyone.hashnode.dev/">Blog</a>
+                <a href="https://x.com/Henrylee_hd">Twitter</a>
+                <a href="mailto:henrydionizi@gmail.com">Email</a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
