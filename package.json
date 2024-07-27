@@ -37,7 +37,7 @@
   "bugs": {
     "url": "https://github.com/Henryle-hd/swahili-english-translator/issues"
   },
-  "homepage": "https://github.com/Henryle-hd/swahili-english-translator#readme",
+  "homepage": "https://henryle-hd.github.io/swahili-english-translator/index.html",
   "devDependencies": {
     "jest": "^29.7.0",
     "nodemon": "^3.1.4"
